@@ -8,4 +8,4 @@ All codes are written by MathWorks Matlab R2022b
 
 To run the code, make sure that all files are in the same folder
 
-This code is an example to the stability of set structured ecosystems. To investigate other parameters which could affect the stability of set structured ecosystems, you only need to change several lines in the corresponding file.
+This code is an example to show the stability of set structured ecosystems. To investigate other parameters which could affect the stability of set structured ecosystems, you only need to change several lines in the corresponding file.
