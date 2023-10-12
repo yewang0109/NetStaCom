@@ -1,5 +1,6 @@
-%This file generates simulated comparison between stability of set structured
-%and corresponding unstructured ecosystems with an increasing number of species
+%This file generates a simulated comparison between
+%the stability of set structured and corresponding unstructured ecosystems
+% with an increasing number of species.
 
 %This file can be used to generate Fig.2a-d
 

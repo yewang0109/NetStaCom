@@ -1,7 +1,6 @@
 function [sta_set,sta_un,sta_theory]=stability_comparison_random(c,num_set,aver_num_set,sigma,d,T)
-% This function generates community matrics for random interactions and
-% estimate its stability with an increasing number of species
-
+%This function generates community matrics for random interactions and 
+%estimates its stability with an increasing number of species
 
 stability_1=zeros(T,length(100:20:300));
 stability_2=zeros(T,length(100:20:300));
@@ -24,10 +23,8 @@ for s=100:20:300
                             if H_set(j,k)==1
                                 cont=rand();
                                 if cont<c
-                                    if num1(k)==1
                                         M(i,j)=M(i,j)+(normrnd(0,sigma));
                                         M(j,i)=M(j,i)+(normrnd(0,sigma));
-                                    end
                                 end
                             end
                         end

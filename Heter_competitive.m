@@ -27,6 +27,7 @@ for num_set=10:10:100
         end
         M=zeros(s,s);
         Mu=zeros(s,s);
+        cont1=0;
         for k=1:num_set
             neigh=[];
             for i=1:s
@@ -55,7 +56,7 @@ for num_set=10:10:100
             j=unidrnd(deg);
             seed(i,j)=1;
             seed(j,i)=1;
-            for j=i:kkkk
+            for j=i:deg
                 if rand()<0.5 && i~=j
                     seed(i,j)=1;
                     seed(j,i)=1;
@@ -63,7 +64,7 @@ for num_set=10:10:100
             end
         end
         seed=full(seed);
-        Net = SFNG(s, kkkk, seed);
+        Net = SFNG(s, deg, seed);
         Gb=full(Net);
         Gb=double(Gb);
         for i=1:s

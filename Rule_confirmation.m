@@ -1,7 +1,8 @@
 %This file generates the confirmation of our simple criteria
 %to enhance stability in set strutucted ecosystems
 
-%This file can be used to generate Fig.3 by varying the parameter s
+%This file can be used to generate Fig.3 
+% by varying the parameter s and interaction types
 
 clear; clc;
 close all;

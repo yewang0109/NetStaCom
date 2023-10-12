@@ -1,6 +1,6 @@
 function delta_com=rule_confirmation_competitive(c,s,aver_num_set,sigma,d,T)
 % This function generates community matrics for competitive interactions and
-% compute its stability with an increasing number of sets
+% computes its stability with an increasing number of sets
 
 
 stability_1=zeros(T,length(10:10:100));

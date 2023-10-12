@@ -1,6 +1,6 @@
 function delta_mutua=rule_confirmation_mutualistic(c,s,aver_num_set,sigma,d,T)
 % This function generates community matrics for mutualistic interactions and
-% compute its stability with an increasing number of sets
+% computes its stability with an increasing number of sets
 
 stability_1=zeros(T,length(10:10:100));
 stability_2=zeros(T,length(10:10:100));

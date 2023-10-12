@@ -1,6 +1,6 @@
 function [sta_set,sta_un,sta_theory]=stability_comparison_mutualistic(c,num_set,aver_num_set,sigma,d,T)
 % This function generates community matrics for mutualistic interactions and
-% estimate its stability with an increasing number of species
+% estimates its stability with an increasing number of species
 
 
 stability_1=zeros(T,length(100:20:300));
